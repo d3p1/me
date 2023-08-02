@@ -1,0 +1,19 @@
+/**
+ * @description Dev container configuration for app code
+ * @author      Cristian Marcelo de Picciotto <d3p1@d3p1.dev>
+ */
+{
+	"name"             : "App",
+	"dockerComposeFile": ["../docker-compose.yml", "../docker-compose.dev.yml"],
+	"shutdownAction"   : "stopCompose",
+	"service"          : "app",
+	"workspaceFolder"  : "/srv/jekyll/app",
+	"remoteUser"       : "jekyll",
+	"customizations"   : {
+		"vscode": {
+			"extensions": [
+				"sissel.shopify-liquid"
+			]
+		}
+	}
+}
