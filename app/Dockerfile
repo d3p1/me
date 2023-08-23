@@ -13,7 +13,7 @@ FROM jekyll/minimal:4.0 AS build
     ##
     # @note The Jekyll official image only has the `root` user 
     #       as an available shell user. 
-    #       There is a `jekyll`user but it does not have shell access.
+    #       There is a `jekyll` user but it does not have shell access.
     #       I think that it is necessary to re-create this `jekyll` user 
     #       to be able to work/access site code without using the `root` user
     # @link https://github.com/envygeeks/jekyll-docker/blob/master/repos/jekyll/Dockerfile#L148
