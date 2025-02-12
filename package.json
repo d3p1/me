@@ -1,0 +1,31 @@
+{
+  "name": "@d3p1/me",
+  "version": "0.0.0",
+  "description": "A page about me",
+  "private": true,
+  "scripts": {
+    "format:code": "prettier --ignore-path .gitignore --check src/app",
+    "format:code:fix": "npm run format:code -- --write",
+    "postinstall": "cd src/ && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d3p1/me.git"
+  },
+  "keywords": [
+    "nextjs",
+    "react"
+  ],
+  "author": "C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d3p1/me/issues"
+  },
+  "homepage": "https://github.com/d3p1/me#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^19.4.0",
+    "@d3p1/commitlint-config": "^1.0.1",
+    "husky": "^9.1.4",
+    "prettier": "3.3.3"
+  }
+}
