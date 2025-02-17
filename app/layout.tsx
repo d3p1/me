@@ -7,11 +7,26 @@ import {dmMono} from '@/app/ui/fonts'
 import '@/app/ui/globals.css'
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://d3p1.dev'),
   title: {
     template: '%s | d3p1',
     default: 'd3p1',
   },
   description: "Hi! I'm de Picciotto C. M., a Full Stack Developer.",
+  openGraph: {
+    images: [
+      {
+        url: '/media/social/og.jpg',
+      },
+    ],
+  },
+  twitter: {
+    images: [
+      {
+        url: '/media/social/twitter.jpg',
+      },
+    ],
+  },
 }
 
 export default function RootLayout({
