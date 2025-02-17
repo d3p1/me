@@ -1,16 +1,10 @@
+/**
+ * @description Root layout
+ * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
+ */
 import type {Metadata} from 'next'
-import {Geist, Geist_Mono} from 'next/font/google'
-import './globals.css'
-
-const geistSans = Geist({
-  variable: '--font-geist-sans',
-  subsets: ['latin'],
-})
-
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
-  subsets: ['latin'],
-})
+import {dmMono} from '@/app/ui/fonts'
+import '@/app/ui/globals.css'
 
 export const metadata: Metadata = {
   title: {
@@ -27,11 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <body className={`${dmMono.className} antialiased`}>{children}</body>
     </html>
   )
 }
