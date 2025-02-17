@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/d3p1/me/compare/v1.1.0...v1.2.0) (2025-02-17)
+
+
+### Bug Fixes
+
+* improve base URL of metadata [[#1](https://github.com/d3p1/me/issues/1)] ([1a582e3](https://github.com/d3p1/me/commit/1a582e35a0c8f9c87e19528cceae8c3496419977))
+
+
+### Features
+
+* add basic home page [[#1](https://github.com/d3p1/me/issues/1)] ([c4a4916](https://github.com/d3p1/me/commit/c4a49169c5d365d311e79f7a73fffa5c19ee3abf))
+
 # [1.1.0](https://github.com/d3p1/me/compare/v1.0.0...v1.1.0) (2025-02-17)
 
 
