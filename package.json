@@ -6,7 +6,10 @@
   "scripts": {
     "format:code": "prettier --ignore-path .gitignore --check src/app",
     "format:code:fix": "npm run format:code -- --write",
-    "postinstall": "cd src/ && npm install"
+    "lint": "next lint",
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -14,7 +17,10 @@
   },
   "keywords": [
     "nextjs",
-    "react"
+    "react",
+    "blog",
+    "personal-website",
+    "personal-blog"
   ],
   "author": "C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)",
   "license": "MIT",
@@ -22,10 +28,24 @@
     "url": "https://github.com/d3p1/me/issues"
   },
   "homepage": "https://github.com/d3p1/me#readme",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "15.1.7"
+  },
   "devDependencies": {
     "@commitlint/cli": "^19.4.0",
     "@d3p1/commitlint-config": "^1.0.1",
     "husky": "^9.1.4",
-    "prettier": "3.3.3"
+    "prettier": "3.3.3",
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.7",
+    "@eslint/eslintrc": "^3"
   }
 }

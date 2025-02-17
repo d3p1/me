@@ -3,7 +3,6 @@
   <component name="ProjectStartupSharedConfiguration">
     <configurations>
       <configuration id="Shell Script.Dev" name="Dev" />
-      <configuration id="Shell Script.Server" name="Server" />
     </configurations>
   </component>
 </project>
