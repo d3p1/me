@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/d3p1/me/compare/v1.2.0...v1.3.0) (2025-02-22)
+
+
+### Features
+
+* add blur effect to wip banner [[#1](https://github.com/d3p1/me/issues/1)] ([aec03e2](https://github.com/d3p1/me/commit/aec03e22bee3991bcf0cfd7e7100b26c381ac38c))
+
 # [1.2.0](https://github.com/d3p1/me/compare/v1.1.0...v1.2.0) (2025-02-17)
 
 
