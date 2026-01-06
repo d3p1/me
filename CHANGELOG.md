@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/d3p1/me/compare/v1.3.0...v1.4.0) (2026-01-06)
+
+
+### Features
+
+* upgrade platform version [[#1](https://github.com/d3p1/me/issues/1)] ([5b39a4b](https://github.com/d3p1/me/commit/5b39a4b5169efa13408a887d9cbcf2d5b0af0428))
+
 # [1.3.0](https://github.com/d3p1/me/compare/v1.2.0...v1.3.0) (2025-02-22)
 
 
