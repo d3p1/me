@@ -1,3 +1,12 @@
+# [1.5.0](https://github.com/d3p1/me/compare/v1.4.0...v1.5.0) (2026-01-06)
+
+
+### Features
+
+* add profile image to home page [[#1](https://github.com/d3p1/me/issues/1)] ([e5fb74e](https://github.com/d3p1/me/commit/e5fb74e7fcea96309c27d90bc52751bc8618c70b))
+* init profile image pixel effect [[#1](https://github.com/d3p1/me/issues/1)] ([883f159](https://github.com/d3p1/me/commit/883f15986b84c44b852d85923698d4fb160c9dcb))
+* install img2pxl dependency [[#1](https://github.com/d3p1/me/issues/1)] ([e276330](https://github.com/d3p1/me/commit/e276330de27cfe3ad87561f663b1c35bdfbde89e))
+
 # [1.4.0](https://github.com/d3p1/me/compare/v1.3.0...v1.4.0) (2026-01-06)
 
 
