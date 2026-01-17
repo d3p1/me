@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: '%s | d3p1',
     default: 'd3p1',
   },
-  description: "Hi! I'm de Picciotto C. M., a Full Stack Developer.",
+  description: "Hi! I'm de Picciotto Cristian Marcelo, a Full Stack Developer.",
   openGraph: {
     images: [
       {
@@ -36,7 +36,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${dmMono.className} antialiased`}>{children}</body>
+      <body
+        className={`bg-primary text-secondary ${dmMono.className} antialiased w-screen h-screen grid place-items-center`}
+      >
+        <main className="max-w-lg">{children}</main>
+      </body>
     </html>
   )
 }
