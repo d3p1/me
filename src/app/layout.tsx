@@ -3,8 +3,8 @@
  * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  */
 import type {Metadata} from 'next'
-import {dmMono} from '@/app/ui/fonts'
-import '@/app/ui/globals.css'
+import {dmMono} from '@/app/_ui/fonts'
+import '@/app/_ui/globals.css'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://d3p1.dev'),
