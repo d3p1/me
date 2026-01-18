@@ -1,3 +1,21 @@
+# [1.6.0](https://github.com/d3p1/me/compare/v1.5.0...v1.6.0) (2026-01-18)
+
+
+### Bug Fixes
+
+* improve metadata [[#1](https://github.com/d3p1/me/issues/1)] ([4c8f4b2](https://github.com/d3p1/me/commit/4c8f4b27659228d0284fe753a8e8adc782d99b0a))
+* improve root layout [[#1](https://github.com/d3p1/me/issues/1)] ([7cd44c9](https://github.com/d3p1/me/commit/7cd44c9aa17ad275616c90ca40e0f787ec781d30))
+
+
+### Features
+
+* add intro component [[#1](https://github.com/d3p1/me/issues/1)] ([e0adc78](https://github.com/d3p1/me/commit/e0adc78f32c356bd00569a5a203bfe2d8123eae8))
+* add leetcode link [[#4](https://github.com/d3p1/me/issues/4)] ([fa5ebf9](https://github.com/d3p1/me/commit/fa5ebf9c3581552dc7a11922d4104c4341e2800d))
+* add nav component [[#1](https://github.com/d3p1/me/issues/1)] ([0cbd43c](https://github.com/d3p1/me/commit/0cbd43c409d762831b66c5be65221bd79883517d))
+* add navigation links [[#1](https://github.com/d3p1/me/issues/1)] ([1df3aa0](https://github.com/d3p1/me/commit/1df3aa0f71375f5cacea4e0bce4c0d89065fc073))
+* improve home component location [[#1](https://github.com/d3p1/me/issues/1)] ([50dacee](https://github.com/d3p1/me/commit/50dacee0fb149ace03a34e92ffd23c3aea40c2cf))
+* improve root layout [[#1](https://github.com/d3p1/me/issues/1)] ([28e8732](https://github.com/d3p1/me/commit/28e87321f0cc313fc39a21f66cd0f6449ff03787))
+
 # [1.5.0](https://github.com/d3p1/me/compare/v1.4.0...v1.5.0) (2026-01-06)
 
 
