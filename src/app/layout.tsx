@@ -13,7 +13,8 @@ export const metadata: Metadata = {
     template: '%s | d3p1',
     default: 'd3p1',
   },
-  description: "Hi! I'm de Picciotto Cristian Marcelo, a Full Stack Developer.",
+  description:
+    "Hi! I'm de Picciotto, Cristian Marcelo, a full-stack developer.",
   openGraph: {
     images: [
       {
