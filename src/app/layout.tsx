@@ -41,7 +41,7 @@ export default function RootLayout({
       <body
         className={`bg-primary text-secondary ${dmMono.className} antialiased w-screen h-screen grid place-items-center`}
       >
-        <main className="max-w-1/3">{children}</main>
+        <main className="max-w-1/2">{children}</main>
       </body>
     </html>
   )
