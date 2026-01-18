@@ -4,7 +4,7 @@
  */
 export default function Intro() {
   return (
-    <div className="flex flex-col justify-center items-center gap-6">
+    <>
       <h1 className="font-black uppercase text-lg before:content-['_[_'] after:content-['_]_']">
         de Picciotto, Cristian Marcelo
       </h1>
@@ -12,6 +12,6 @@ export default function Intro() {
         Hi! I am a full-stack developer who loves building high-performance
         e-commerce sites, immersive website experiences, and web-based games.
       </p>
-    </div>
+    </>
   )
 }
