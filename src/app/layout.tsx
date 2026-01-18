@@ -2,6 +2,7 @@
  * @description Root layout
  * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  */
+import React from 'react'
 import type {Metadata} from 'next'
 import {dmMono} from '@/app/_ui/fonts'
 import '@/app/_ui/globals.css'
@@ -39,7 +40,7 @@ export default function RootLayout({
       <body
         className={`bg-primary text-secondary ${dmMono.className} antialiased w-screen h-screen grid place-items-center`}
       >
-        <main className="max-w-lg">{children}</main>
+        <main className="max-w-1/3">{children}</main>
       </body>
     </html>
   )
