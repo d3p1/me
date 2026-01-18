@@ -12,8 +12,10 @@ export const links = [
     href: 'https://www.upwork.com/freelancers/cristianmarcelodepicciotto',
   },
   {label: 'github', href: 'https://github.com/d3p1'},
+  {label: 'leetcode', href: 'https://leetcode.com/u/d3p1/'},
   {label: 'chess.com', href: 'https://www.chess.com/member/depichess'},
   {label: 'lichess', href: 'https://lichess.org/@/depichess'},
   {label: 'twitter/x', href: 'https://x.com/___d3p1'},
   {label: 'instagram', href: 'https://www.instagram.com/___d3p1'},
+  {label: 'resume', href: '#'},
 ]
