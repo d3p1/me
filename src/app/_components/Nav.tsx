@@ -13,7 +13,7 @@ export default function Nav() {
       {links.map(({label, href}, index) => (
         <a
           key={index}
-          className="before:content-['_[_'] after:content-['_]_'] opacity-50 hover:opacity-100 transition-opacity"
+          className="before:content-['['] after:content-[']'] opacity-50 hover:opacity-100 transition-opacity"
           href={href}
           target="_blank"
           rel="me"
