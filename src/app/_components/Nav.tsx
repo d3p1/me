@@ -6,7 +6,10 @@ import {links} from '@/app/_etc/nav'
 
 export default function Nav() {
   return (
-    <nav aria-label="Social links" className="grid grid-cols-3 gap-4">
+    <nav
+      aria-label="Social links"
+      className="grid grid-cols-1 gap-2 lg:grid-cols-3 lg:gap-4"
+    >
       {links.map(({label, href}, index) => (
         <a
           key={index}

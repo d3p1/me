@@ -8,7 +8,7 @@ export default function Intro() {
       <h1 className="font-black uppercase text-lg before:content-['_[_'] after:content-['_]_']">
         de Picciotto, Cristian Marcelo
       </h1>
-      <p className="lowercase leading-10">
+      <p className="lowercase">
         Hi! I am a full-stack developer who loves building high-performance
         e-commerce sites, immersive website experiences, and web-based games.
       </p>
