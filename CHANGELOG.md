@@ -1,3 +1,16 @@
+# [1.7.0](https://github.com/d3p1/me/compare/v1.6.1...v1.7.0) (2026-01-19)
+
+
+### Bug Fixes
+
+* improve desktop and mobile styles [[#1](https://github.com/d3p1/me/issues/1)] ([a9d09e9](https://github.com/d3p1/me/commit/a9d09e90a89daf2b4af392fc077bfc7f7206c5cb))
+* improve title and link format to avoid wrong separation in mobile [[#1](https://github.com/d3p1/me/issues/1)] ([cbf5c05](https://github.com/d3p1/me/commit/cbf5c059712802cae028b981d60180f6f21292a4))
+
+
+### Features
+
+* add not found page [[#1](https://github.com/d3p1/me/issues/1)] ([eb74242](https://github.com/d3p1/me/commit/eb74242f135b042c2f4c76f89557246be518f3ac))
+
 ## [1.6.1](https://github.com/d3p1/me/compare/v1.6.0...v1.6.1) (2026-01-19)
 
 
