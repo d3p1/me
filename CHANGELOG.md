@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/d3p1/me/compare/v1.6.0...v1.6.1) (2026-01-19)
+
+
+### Bug Fixes
+
+* improve mobile styles [[#1](https://github.com/d3p1/me/issues/1)] ([1d0a563](https://github.com/d3p1/me/commit/1d0a563509857f3277f6ab902a4d5b386897a625))
+
 # [1.6.0](https://github.com/d3p1/me/compare/v1.5.0...v1.6.0) (2026-01-18)
 
 
