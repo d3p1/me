@@ -6,6 +6,30 @@ export const config = {
   images: {
     0: {
       src: 'media/home/profile.png',
+      width: 140,
+      height: 140,
+      resolution: {
+        width: 35,
+        height: 35,
+      },
+      pixel: {
+        size: 3,
+        motion: {
+          displacement: {
+            frequency: 1,
+            amplitude: 40,
+          },
+        },
+      },
+      motion: {
+        noise: {
+          frequency: 0.05,
+          amplitude: 2,
+        },
+      },
+    },
+    1024: {
+      src: 'media/home/profile.lg.png',
       width: 280,
       height: 280,
       resolution: {
