@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/d3p1/me/compare/v1.8.0...v1.9.0) (2026-02-07)
+
+
+### Features
+
+* improve production image generation [[#1](https://github.com/d3p1/me/issues/1)] ([58dd6f9](https://github.com/d3p1/me/commit/58dd6f9c155ce59e9896ec916a984ae001737b68))
+
 # [1.8.0](https://github.com/d3p1/me/compare/v1.7.0...v1.8.0) (2026-02-07)
 
 
