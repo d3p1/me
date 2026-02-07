@@ -32,5 +32,11 @@ jobs:
 
       - name: Generate release
         uses: d3p1/semantic-releasify@v1
+        with:
+          is-docker-release: true
+          docker-project: 'd3p1'
+          docker-image: 'me'
+          docker-file: 'Dockerfile'
+          docker-args: '{BASE_NODE_VERSION: "22.21", BASE_BUN_VERSION: "1.3", BASE_REMOTE_DOC_ROOT_DIR: "/home/dev/app", BASE_JS_COMMAND_RUNNER: "bun", BUILD_CMD: "bun --bun next build"}'
         env :
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
