@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/d3p1/me/compare/v1.7.0...v1.8.0) (2026-02-07)
+
+
+### Features
+
+* test release of docker image with last version [[#1](https://github.com/d3p1/me/issues/1)] ([2aecae8](https://github.com/d3p1/me/commit/2aecae83e62a0ae6943de81d4562e6b61d391377))
+
 # [1.7.0](https://github.com/d3p1/me/compare/v1.6.1...v1.7.0) (2026-01-19)
 
 
