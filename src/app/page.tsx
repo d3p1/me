@@ -6,7 +6,7 @@ import Hero from '@/app/_components/Hero'
 import Intro from '@/app/_components/Intro'
 import Nav from '@/app/_components/Nav'
 
-export default function HomePage() {
+export default function Page() {
   return (
     <div className="flex flex-col gap-4 justify-center items-center lg:flex-row lg:gap-8">
       <Hero />
