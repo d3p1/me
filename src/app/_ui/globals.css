@@ -20,7 +20,15 @@
 }
 
 @layer base {
+  h1, h2, h3 {
+    @apply font-black uppercase token
+  }
+
   h1, h2 {
-    @apply text-lg font-black uppercase token
+    @apply text-xl
+  }
+
+  h3 {
+    @apply text-lg
   }
 }
