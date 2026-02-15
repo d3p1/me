@@ -22,7 +22,7 @@ export default function RepoList({repos}: {repos: Repo[]}) {
 function Card({repo}: {repo: Repo}) {
   return (
     <a href={repo.html_url} target="_blank" className="p-8 flex flex-col gap-4">
-      <h3>{repo.full_name}</h3>
+      <h3 className="wrap-break-word">{repo.full_name}</h3>
       <p className="text-secondary-500">{repo.description}</p>
       {repo.topics?.length && <TopicList topics={repo.topics} />}
     </a>
