@@ -5,7 +5,7 @@
 export default function Intro() {
   return (
     <>
-      <h1 className="font-black uppercase text-lg before:content-['['] after:content-[']']">
+      <h1 className="font-black uppercase text-lg token">
         de Picciotto, Cristian Marcelo
       </h1>
       <p className="lowercase">
