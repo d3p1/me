@@ -6,7 +6,7 @@ export default function Layout({children}: {children: React.ReactNode}) {
   return (
     <>
       <h2 className="text-center">Laboratories</h2>
-      <p className="text-secondary-500">
+      <p className="text-secondary-500 text-center">
         Hands-on experiments to explore new technologies, test ideas, expand my
         technical toolkit, and have fun.
       </p>
