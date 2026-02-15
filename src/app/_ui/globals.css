@@ -6,7 +6,8 @@
 
 @theme {
   --color-primary: #000000;
-  --color-secondary: #ffffff;
+  --color-secondary-100: #ffffff;
+  --color-secondary-500: #717171;
 }
 
 @utility token {
