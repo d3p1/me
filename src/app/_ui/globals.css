@@ -8,3 +8,12 @@
   --color-primary: #000000;
   --color-secondary: #ffffff;
 }
+
+@utility token {
+  &::before {
+    content: '[';
+  }
+  &::after {
+    content: ']';
+  }
+}
