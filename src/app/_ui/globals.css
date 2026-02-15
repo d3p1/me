@@ -17,3 +17,9 @@
     content: ']';
   }
 }
+
+@layer base {
+  h1, h2 {
+    @apply text-lg font-black uppercase token
+  }
+}

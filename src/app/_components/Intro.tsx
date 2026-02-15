@@ -5,9 +5,7 @@
 export default function Intro() {
   return (
     <>
-      <h1 className="font-black uppercase text-lg token">
-        de Picciotto, Cristian Marcelo
-      </h1>
+      <h1>de Picciotto, Cristian Marcelo</h1>
       <p className="lowercase">
         Hi! I am a full-stack developer who loves building high-performance
         e-commerce sites, immersive website experiences, and web-based games.
