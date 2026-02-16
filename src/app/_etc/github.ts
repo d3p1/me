@@ -6,6 +6,8 @@ export const LABORATORY_TOPIC = 'laboratory'
 
 export const PROJECT_TOPIC = 'project'
 
+export const BACKLOG_TOPIC = 'backlog'
+
 export const SEARCH_STARS_SORT = 'stars'
 
 export const SEARCH_STARS_SORT_ORDER = 'desc'

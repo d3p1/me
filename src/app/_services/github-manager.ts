@@ -5,6 +5,7 @@
 import 'server-only'
 import {Octokit} from 'octokit'
 import {
+  BACKLOG_TOPIC,
   LABORATORY_TOPIC,
   PROJECT_TOPIC,
   SEARCH_PAGE_SIZE,
@@ -58,7 +59,7 @@ export class GitHubManager {
     const iterator = this.#octokit.paginate.iterator(
       this.#octokit.rest.search.repos,
       {
-        q: `user:${process.env.GITHUB_USERNAME} topic:${topic}`,
+        q: `user:${process.env.GITHUB_USERNAME} topic:${topic} -topic:${BACKLOG_TOPIC}`,
         sort: SEARCH_STARS_SORT,
         order: SEARCH_STARS_SORT_ORDER,
         per_page: SEARCH_PAGE_SIZE,
