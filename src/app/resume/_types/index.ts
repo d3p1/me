@@ -14,3 +14,13 @@ export interface Project {
   description: string
   link: string
 }
+
+type CertificationProvider = {
+  name: string
+  link: string
+}
+
+export interface Certification {
+  title: string
+  provider: CertificationProvider
+}
