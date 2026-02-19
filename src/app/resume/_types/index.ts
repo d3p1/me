@@ -8,3 +8,9 @@ export interface Experience {
   end_date?: Date
   description: string
 }
+
+export interface Project {
+  title: string
+  description: string
+  link: string
+}
