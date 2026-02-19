@@ -7,8 +7,9 @@ export default function Intro() {
     <>
       <h1>de Picciotto, Cristian Marcelo</h1>
       <p>
-        hi! I am a full-stack developer who loves building high-performance
-        e-commerce sites, immersive website experiences, and web-based games.
+        hi! I am a full-stack developer with 13+ years of hands-on experience
+        who loves building high-performance e-commerce sites, immersive website
+        experiences, and web-based games.
       </p>
     </>
   )
