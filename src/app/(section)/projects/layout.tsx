@@ -5,7 +5,7 @@
 export default function Layout({children}: {children: React.ReactNode}) {
   return (
     <>
-      <h2>Projects</h2>
+      <h1>Projects</h1>
       <p className="text-secondary-500 text-center">
         Projects I enjoy building that simplify developers’ workflows and
         accelerate feature implementation.
