@@ -17,4 +17,16 @@ export const projects: Project[] = [
       'Developed a lightweight, modular 2D pixelation effect library using Three.js, featuring custom GLSL shaders and optimized raycasting logic for high-performance real-time rendering.',
     link: 'https://github.com/d3p1/img2pxl',
   },
+  {
+    title: 'dockgento',
+    description:
+      'CLI tool designed to provision a fully containerized Magento environment in seconds. Unlike typical Magento Docker setups that focus solely on development, this tool is built with production in mind. It integrates Traefik for automated SSL certificate generation and SSL termination, and runs Docker in rootless mode to enhance security and reduce attack surface in production deployments.',
+    link: 'https://github.com/d3p1/dockgento',
+  },
+  {
+    title: 'docknext',
+    description:
+      'CLI tool designed to provision a fully containerized, self-hosted Next.js environment in seconds.',
+    link: 'https://github.com/d3p1/docknext',
+  },
 ]
