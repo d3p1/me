@@ -2,7 +2,7 @@
  * @description Experiences
  * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  */
-import type {Experience} from '@/app/resume/_types'
+import type {Experience} from '@/app/(section)/resume/_types'
 
 export const experiences: Experience[] = [
   {

@@ -2,7 +2,7 @@
  * @description Projects
  * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  */
-import type {Project} from '@/app/resume/_types'
+import type {Project} from '@/app/(section)/resume/_types'
 
 export const projects: Project[] = [
   {

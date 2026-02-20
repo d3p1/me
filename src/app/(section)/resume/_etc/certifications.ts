@@ -2,7 +2,7 @@
  * @description Certifications
  * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  */
-import type {Certification} from '@/app/resume/_types/index.ts'
+import type {Certification} from '@/app/(section)/resume/_types'
 
 export const certifications: Certification[] = [
   {
