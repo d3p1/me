@@ -11,7 +11,7 @@ export default function Page() {
     <div className="flex flex-col gap-4 justify-center items-center lg:flex-row lg:gap-8">
       <Hero />
 
-      <div className="flex flex-col justify-center items-center gap-6 text-center lg:max-w-1/3">
+      <div className="flex flex-col justify-center items-center gap-6 text-center lg:max-w-1/2 xl:max-w-1/3">
         <Intro />
         <Nav />
       </div>
