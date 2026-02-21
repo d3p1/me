@@ -6,7 +6,7 @@ import type {Certification} from '@/app/(section)/resume/_types'
 
 export const certifications: Certification[] = [
   {
-    title: 'Adobe Magento 2 Certified Professional Developer',
+    title: 'Adobe Magento Certified Expert Developer',
     provider: {
       name: 'Adobe',
       link: 'https://business.adobe.com/products/commerce.html',
