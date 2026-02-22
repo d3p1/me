@@ -39,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`bg-primary text-secondary-100 ${dmMono.className} antialiased p-6 text-sm leading-10 min-h-screen grid grid-cols-1 place-items-center`}
+        className={`${dmMono.className} antialiased p-6 min-h-screen grid grid-cols-1 place-items-center`}
       >
         <main>{children}</main>
       </body>

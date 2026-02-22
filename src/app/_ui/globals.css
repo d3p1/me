@@ -20,23 +20,31 @@
 }
 
 @layer base {
+  html {
+    font-size: 0.875rem;
+  }
+
+  body {
+    @apply bg-primary text-secondary-100 leading-12;
+  }
+
   h1, h2, h3 {
-    @apply token
+    @apply token uppercase;
   }
 
   h1, h2, h3, h4 {
-    @apply font-black
-  }
-
-  h1, h2 {
-    @apply uppercase
+    @apply font-black;
   }
 
   h1 {
-    @apply text-lg lg:text-xl
+    @apply text-xl lg:text-2xl tracking-widest;
   }
 
-  h2, h3, h4 {
-    @apply text-base lg:text-lg
+  h2 {
+    @apply text-lg lg:text-xl;
+  }
+
+  h3, h4 {
+    @apply text-base lg:text-lg;
   }
 }
