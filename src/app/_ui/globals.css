@@ -37,14 +37,14 @@
   }
 
   h1 {
-    @apply text-xl lg:text-2xl tracking-widest;
+    @apply text-xl tracking-widest my-8 lg:text-2xl;
   }
 
   h2 {
-    @apply text-lg lg:text-xl;
+    @apply text-lg my-6 lg:text-xl;
   }
 
   h3, h4 {
-    @apply text-base lg:text-lg;
+    @apply text-base my-4 lg:text-lg;
   }
 }
