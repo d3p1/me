@@ -32,7 +32,7 @@ function Card({repo}: {repo: Repo}) {
 function TopicList({topics}: {topics: string[]}) {
   return (
     <div className="border-t-solid border-t-2 border-t-secondary-500 mt-4 p-2 flex flex-col">
-      <h3 className="font-black">Topics</h3>
+      <h4 className="my-4">Topics</h4>
       <ul className="flex flex-row flex-wrap gap-2 justify-center items-center">
         {topics.map((topic, index) => (
           <li
