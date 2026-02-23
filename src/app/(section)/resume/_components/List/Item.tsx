@@ -11,8 +11,8 @@ export default function Item({
   const content = (
     <>
       <h3>{title}</h3>
-      {description && <p>{description}</p>}
       {children}
+      {description && <p>{description}</p>}
     </>
   )
 
