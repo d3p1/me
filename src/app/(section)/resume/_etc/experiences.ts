@@ -39,7 +39,8 @@ export const experiences: Experience[] = [
     start_date: new Date('2023-01-01'),
     end_date: new Date('2024-04-01'),
     description:
-      'Contracted to build the complete API layer for the mobile app and improve performance of business logic affecting both mobile and web platforms.',
+      'Contracted to build the complete API layer for the mobile app and improve performance of mobile and web platforms.',
+    hide: true,
   },
   {
     title: 'Magento Developer | Summa Solutions',
@@ -47,6 +48,7 @@ export const experiences: Experience[] = [
     end_date: new Date('2016-05-01'),
     description:
       "Worked on the successful implementation of Prosegur's new site while maintaining Cetrogar's site.",
+    hide: true,
   },
   {
     title: 'Magento Developer | Frávega',
@@ -54,6 +56,7 @@ export const experiences: Experience[] = [
     end_date: new Date('2016-01-01'),
     description:
       'Principal developer responsible for implementing the new desktop and mobile site.',
+    hide: true,
   },
   {
     title: 'Magento Developer | IDS',
@@ -61,5 +64,6 @@ export const experiences: Experience[] = [
     end_date: new Date('2014-01-01'),
     description:
       'Principal developer of large company eCommerce sites such as Naldo, Agrofy, Viaggio, and Cristobal. Developed global modules for company-wide use, including payment, shipping, SEO, and shared functionality modules.',
+    hide: true,
   },
 ]

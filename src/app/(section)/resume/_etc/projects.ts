@@ -28,5 +28,6 @@ export const projects: Project[] = [
     description:
       'CLI tool designed to provision a fully containerized, self-hosted Next.js environment in seconds.',
     link: 'https://github.com/d3p1/docknext',
+    hide: true,
   },
 ]

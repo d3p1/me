@@ -5,9 +5,13 @@
 import type {ListItemComponentProps} from '@/app/(section)/resume/_types'
 
 export default function Item({
-  li: {title, description, link},
+  li: {title, description, link, hide = false},
   children,
 }: ListItemComponentProps) {
+  if (hide) {
+    return null
+  }
+
   const content = (
     <>
       <h3>{title}</h3>

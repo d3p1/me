@@ -8,6 +8,7 @@ export interface ListItem {
   title: string
   description?: string
   link?: string
+  hide?: boolean
 }
 
 export type ListItemComponentProps = {
