@@ -7,6 +7,7 @@ import type {ReactElement, ReactNode} from 'react'
 export interface ListItem {
   title: string
   description?: string
+  link?: string
 }
 
 export type ListItemComponentProps = {
@@ -24,9 +25,7 @@ export interface Experience extends ListItem {
   end_date?: Date
 }
 
-export interface Project extends ListItem {
-  link: string
-}
+export type Project = ListItem
 
 export interface Certification extends ListItem {
   provider: CertificationProvider

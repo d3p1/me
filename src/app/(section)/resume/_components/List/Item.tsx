@@ -4,12 +4,27 @@
  */
 import type {ListItemComponentProps} from '@/app/(section)/resume/_types'
 
-export default function Item({li, children}: ListItemComponentProps) {
+export default function Item({
+  li: {title, description, link},
+  children,
+}: ListItemComponentProps) {
+  const content = (
+    <>
+      <h3>{title}</h3>
+      {description && <p>{description}</p>}
+      {children}
+    </>
+  )
+
   return (
     <li>
-      <h3>{li.title}</h3>
-      {li.description && <p>{li.description}</p>}
-      {children}
+      {link ? (
+        <a href={link} target="_blank">
+          {content}
+        </a>
+      ) : (
+        content
+      )}
     </li>
   )
 }
