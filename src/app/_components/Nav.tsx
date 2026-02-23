@@ -12,29 +12,23 @@ export default function Nav() {
       aria-label="Social links"
       className="grid grid-cols-1 gap-2 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3"
     >
-      {links.map(({label, href, external}, index) =>
-        external ? (
-          <a
-            key={index}
-            className="token opacity-50 hover:opacity-100 transition-opacity"
-            href={href}
-            target="_blank"
-            rel="me"
-          >
-            {label}
-          </a>
+      {links.map(({label, href, external}, index) => {
+        const props = {
+          key: index,
+          className: 'token opacity-50 hover:opacity-100 transition-opacity',
+          href: href,
+          target: '_blank',
+          rel: 'me',
+        }
+
+        return external ? (
+          <a {...props}>{label}</a>
         ) : (
-          <Link
-            key={index}
-            className="token opacity-50 hover:opacity-100 transition-opacity"
-            href={href as unknown as UrlObject}
-            target="_blank"
-            rel="me"
-          >
+          <Link {...props} href={href as unknown as UrlObject}>
             {label}
           </Link>
-        ),
-      )}
+        )
+      })}
     </nav>
   )
 }
