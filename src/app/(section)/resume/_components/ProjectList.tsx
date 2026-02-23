@@ -10,6 +10,7 @@ export default function ProjectList() {
   return (
     <List
       title="Projects"
+      link="https://github.com/d3p1/"
       items={projects.map((project, index) => (
         <Item li={project} key={index} />
       ))}

@@ -15,6 +15,7 @@ export default function ExperienceList() {
   return (
     <List
       title="Experience"
+      link="https://www.upwork.com/freelancers/cristianmarcelodepicciotto"
       items={experiences.map((experience, index) => (
         <Item li={experience} key={index}>
           <div className="font-black text-secondary-500 flex flex-row gap-4">

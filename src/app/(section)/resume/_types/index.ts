@@ -18,6 +18,7 @@ export type ListItemComponentProps = {
 
 export type ListComponentProps = {
   title: string
+  link: string
   items: ReactElement<ListItemComponentProps>[]
 }
 

@@ -10,6 +10,7 @@ export default function CertificationList() {
   return (
     <List
       title="Certifications"
+      link="https://www.linkedin.com/in/cristian-marcelo-de-picciotto/"
       items={certifications.map((certification, index) => (
         <Item li={certification} key={index}>
           <a
