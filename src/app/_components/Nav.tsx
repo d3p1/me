@@ -14,7 +14,6 @@ export default function Nav() {
     >
       {links.map(({label, href, external}, index) => {
         const props = {
-          key: index,
           className: 'token opacity-50 hover:opacity-100 transition-opacity',
           href: href,
           target: '_blank',
@@ -22,9 +21,11 @@ export default function Nav() {
         }
 
         return external ? (
-          <a {...props}>{label}</a>
+          <a {...props} key={index}>
+            {label}
+          </a>
         ) : (
-          <Link {...props} href={href as unknown as UrlObject}>
+          <Link {...props} key={index} href={href as unknown as UrlObject}>
             {label}
           </Link>
         )
