@@ -13,6 +13,12 @@ export const experiences: Experience[] = [
       'Freelancing allows me to leverage my knowledge across the full software development lifecycle — from architecture and development to deployment and production support — taking full end-to-end ownership of projects.',
   },
   {
+    title: 'Magento Developer | Sepoy',
+    start_date: new Date('2016-05-01'),
+    description:
+      'Working as a Magento full-stack developer, implementing modern websites using Hyvä, ScandiPWA, and other modern headless architectures.',
+  },
+  {
     title: 'Magento Developer | Bina Commerce',
     start_date: new Date('2021-01-01'),
     end_date: new Date('2026-01-01'),
@@ -33,6 +39,7 @@ export const experiences: Experience[] = [
     end_date: new Date('2024-03-01'),
     description:
       "Contracted to migrate Abbot's multi-website platform from Magento 2.0 to Magento 2.4.",
+    hide: true,
   },
   {
     title: 'Magento Developer | Bonoxs',
