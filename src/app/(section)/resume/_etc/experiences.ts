@@ -14,7 +14,7 @@ export const experiences: Experience[] = [
   },
   {
     title: 'Magento Developer | Sepoy',
-    start_date: new Date('2016-05-01'),
+    start_date: new Date('2024-01-01'),
     description:
       'Working as a Magento full-stack developer, implementing modern websites using Hyvä, ScandiPWA, and other modern headless architectures.',
   },
