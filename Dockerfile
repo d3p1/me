@@ -22,11 +22,20 @@
 #              by `docknext next-configure`, and that script
 #              is in charge of replacing `${SCRIPT_*}` variables
 #              by actual values
+# @note        It is required to mount the `GITHUB_USERNAME`
+#              and the `GITHUB_PERSONAL_ACCESS_TOKEN` secrets so the build can
+#              process the pages that use the GitHub API.
+#              To mount these secrets it is used the `RUN --mount=type=secret`
+#              command.
+#              Then, the `docker build` command should expose these secrets
+#              using the `--secret` flag. For instance:
+#              `docker build --secret id=github-username,env=GITHUB_USERNAME --secret id=github-token,env=GITHUB_TOKEN -t me .`
 # @todo        For now, we are also
 #              copying `node_modules` into `runner`
 #              because we need `next` script for `start` command.
 #              Improve this logic
 # @link        https://github.com/leerob/next-self-host/blob/main/Dockerfile
+# @link        https://docs.docker.com/build/building/secrets/
 ##
 ARG BASE_NODE_VERSION="22.21"
 ARG BASE_BUN_VERSION="1.3"
@@ -40,7 +49,9 @@ FROM d3p1/jsruntime:n${BASE_NODE_VERSION}-b${BASE_BUN_VERSION} AS builder
     COPY --chown=dev:dev package*.json bun.lockb* .
     RUN ${BASE_JS_COMMAND_RUNNER} install
     COPY --chown=dev:dev . .
-    RUN ${BASE_JS_COMMAND_RUNNER} run build
+    RUN --mount=type=secret,id=github-username,env=GITHUB_USERNAME \
+        --mount=type=secret,id=github-token,env=GITHUB_PERSONAL_ACCESS_TOKEN \
+        ${BASE_JS_COMMAND_RUNNER} run build
 
 FROM d3p1/jsruntime:n${BASE_NODE_VERSION}-b${BASE_BUN_VERSION} AS runner
     ARG BASE_REMOTE_DOC_ROOT_DIR="/home/dev/app"

@@ -1,6 +1,8 @@
 ##
 # @description Release automation
 # @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
+# @note        Add `docker-build-flags` to mount secrets required to build
+#              the pages that use the GitHub API
 # @link        https://semantic-release.gitbook.io/semantic-release/recipes/ci-configurations/github-actions
 ##
 name: Release
@@ -37,6 +39,7 @@ jobs:
           docker-project: 'd3p1'
           docker-image: 'me'
           docker-file: 'Dockerfile'
+          docker-build-flags: '{secret: "id=github-token,env=GITHUB_TOKEN"}'
         env :
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DOCKER_REGISTRY_USER: ${{ secrets.DOCKER_REGISTRY_USER }}
