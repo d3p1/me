@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/d3p1/me/compare/v1.10.0...v1.10.1) (2026-02-27)
+
+
+### Bug Fixes
+
+* adjust sepoy experience date [[#1](https://github.com/d3p1/me/issues/1)] ([2a9378d](https://github.com/d3p1/me/commit/2a9378d7832cbc858d0a8caeb480a1f6869782a5))
+
 # [1.10.0](https://github.com/d3p1/me/compare/v1.9.0...v1.10.0) (2026-02-27)
 
 
