@@ -1,21 +1,74 @@
 /**
  * @description Repo list
  * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
+ * @todo        Improve filter logic
  */
+'use client'
+
+import {useState} from 'react'
+import type {FilterTopic} from '@/app/_types'
+import {filter_topic_list} from '@/app/_etc/github'
 import type {Repo} from '@/app/_types'
 
 export default function RepoList({repos}: {repos: Repo[]}) {
+  const [filterList, setFilterList] = useState<FilterTopic[]>(filter_topic_list)
+  const handleFilter = (index: number) => {
+    const list = [...filterList]
+    list[index].is_active = !list[index].is_active
+    setFilterList(list)
+  }
+
+  const activeFilterList = filterList.filter((topic) => topic.is_active)
+  const filteredRepos = activeFilterList.length
+    ? repos.filter(
+        (repo) =>
+          repo.topics?.some((topic) =>
+            activeFilterList.some((filter) => filter.label === topic),
+          ),
+      )
+    : repos
+
   return (
-    <ul className="grid grid-cols-1 gap-12 text-center">
-      {repos.map((repo) => (
-        <li
-          key={repo.id}
-          className="border-solid border-2 border-secondary-500"
-        >
-          <Card repo={repo} />
-        </li>
-      ))}
-    </ul>
+    <>
+      <Filter filterList={filterList} handleFilter={handleFilter} />
+      <ul className="grid grid-cols-1 gap-12 text-center">
+        {filteredRepos.map((repo) => (
+          <li
+            key={repo.id}
+            className="border-solid border-2 border-secondary-500"
+          >
+            <Card repo={repo} />
+          </li>
+        ))}
+      </ul>
+    </>
+  )
+}
+
+function Filter({
+  filterList,
+  handleFilter,
+}: {
+  filterList: FilterTopic[]
+  handleFilter: (index: number) => void
+}) {
+  return (
+    <div className="my-8 flex flex-row justify-center items-center gap-6">
+      <p className="font-black">Filters:</p>
+      <ul className="flex flex-row gap-4 justify-center items-center">
+        {filterList.map((topic, index) => (
+          <li
+            key={index}
+            className={`token cursor-pointer ${
+              topic.is_active ? 'text-secondary-100' : 'text-secondary-500'
+            } `}
+            onClick={() => handleFilter(index)}
+          >
+            {topic.label}
+          </li>
+        ))}
+      </ul>
+    </div>
   )
 }
 

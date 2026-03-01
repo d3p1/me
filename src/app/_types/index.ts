@@ -9,3 +9,8 @@ export interface Repo {
   description: string | null
   topics: string[] | undefined
 }
+
+export interface FilterTopic {
+  label: string
+  is_active?: boolean
+}
