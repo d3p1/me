@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/d3p1/me/compare/v1.10.1...v1.11.0) (2026-03-01)
+
+
+### Features
+
+* init filters for labs and projects [[#1](https://github.com/d3p1/me/issues/1)] ([dbfcbbd](https://github.com/d3p1/me/commit/dbfcbbd111fc444084f11fc5a4513b9b3fe57224))
+
 ## [1.10.1](https://github.com/d3p1/me/compare/v1.10.0...v1.10.1) (2026-02-27)
 
 
