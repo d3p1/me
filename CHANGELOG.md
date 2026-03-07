@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/d3p1/me/compare/v1.11.0...v1.11.1) (2026-03-07)
+
+
+### Bug Fixes
+
+* improve experience description [[#1](https://github.com/d3p1/me/issues/1)] ([0b1bc09](https://github.com/d3p1/me/commit/0b1bc09211bcf428a467c5a3a5ecb24896ebf8f6))
+
 # [1.11.0](https://github.com/d3p1/me/compare/v1.10.1...v1.11.0) (2026-03-01)
 
 
