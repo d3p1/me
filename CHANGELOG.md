@@ -1,3 +1,16 @@
+# [1.12.0](https://github.com/d3p1/me/compare/v1.11.1...v1.12.0) (2026-03-12)
+
+
+### Bug Fixes
+
+* improve home hero image for mobile version [[#1](https://github.com/d3p1/me/issues/1)] ([9952cb2](https://github.com/d3p1/me/commit/9952cb20293fed8e9b17a9eb7d00bba5d0b2c6d8))
+* improve home styles for mobile version [[#1](https://github.com/d3p1/me/issues/1)] ([fb245b5](https://github.com/d3p1/me/commit/fb245b532f51108db1d63eacc48bdd52f87d43bc))
+
+
+### Features
+
+* upgrade img2pxl library to improve hero section for mobile versions [[#1](https://github.com/d3p1/me/issues/1)] ([0c7b46d](https://github.com/d3p1/me/commit/0c7b46d88fbef480143695d43a6ab81283a71111))
+
 ## [1.11.1](https://github.com/d3p1/me/compare/v1.11.0...v1.11.1) (2026-03-07)
 
 
