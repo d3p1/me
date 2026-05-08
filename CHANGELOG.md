@@ -1,3 +1,10 @@
+## [1.12.1](https://github.com/d3p1/me/compare/v1.12.0...v1.12.1) (2026-05-08)
+
+
+### Bug Fixes
+
+* improve code style [[#1](https://github.com/d3p1/me/issues/1)] ([bcd3797](https://github.com/d3p1/me/commit/bcd379775f861ec1b1deced548055ac039ecccea))
+
 # [1.12.0](https://github.com/d3p1/me/compare/v1.11.1...v1.12.0) (2026-03-12)
 
 
