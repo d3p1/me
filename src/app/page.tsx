@@ -7,16 +7,16 @@ import Intro from '@/app/_components/Intro'
 import Nav from '@/app/_components/Nav'
 
 export default function Page() {
-  return (
-    <div className="flex flex-col gap-4 justify-center items-center lg:flex-row lg:gap-8">
-      <div className="absolute opacity-5 lg:static lg:opacity-100">
-        <Hero />
-      </div>
+    return (
+        <div className="flex flex-col gap-4 justify-center items-center lg:flex-row lg:gap-8">
+            <div className="absolute opacity-5 lg:static lg:opacity-100">
+                <Hero />
+            </div>
 
-      <div className="flex flex-col justify-center items-center gap-6 text-center lg:max-w-1/2 xl:max-w-1/3">
-        <Intro />
-        <Nav />
-      </div>
-    </div>
-  )
+            <div className="flex flex-col justify-center items-center gap-6 text-center lg:max-w-1/2 xl:max-w-1/3">
+                <Intro />
+                <Nav />
+            </div>
+        </div>
+    )
 }

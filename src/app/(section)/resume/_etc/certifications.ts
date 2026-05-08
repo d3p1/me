@@ -5,20 +5,22 @@
 import type {Certification} from '@/app/(section)/resume/_types'
 
 export const certifications: Certification[] = [
-  {
-    title: 'Adobe Magento Certified Expert Developer',
-    provider: {
-      name: 'Adobe',
-      link: 'https://business.adobe.com/products/commerce.html',
+    {
+        title: 'Adobe Magento Certified Expert Developer',
+        provider: {
+            name: 'Adobe',
+            link: 'https://business.adobe.com/products/commerce.html',
+        },
     },
-  },
-  {
-    title:
-      'Blender Launch Pad - Modeling Fundamentals & Texturing Fundamentals',
-    provider: {name: 'CG Boost', link: 'https://www.cgboost.com/'},
-  },
-  {
-    title: 'Three.js Developer',
-    provider: {name: 'Three.js Journey', link: 'https://threejs-journey.com/'},
-  },
+    {
+        title: 'Blender Launch Pad - Modeling Fundamentals & Texturing Fundamentals',
+        provider: {name: 'CG Boost', link: 'https://www.cgboost.com/'},
+    },
+    {
+        title: 'Three.js Developer',
+        provider: {
+            name: 'Three.js Journey',
+            link: 'https://threejs-journey.com/',
+        },
+    },
 ]

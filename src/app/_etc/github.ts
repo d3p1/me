@@ -17,28 +17,28 @@ export const SEARCH_STARS_SORT_ORDER = 'desc'
 export const SEARCH_PAGE_SIZE = 100
 
 export const filter_topic_list: FilterTopic[] = [
-  {
-    label: 'docker',
-  },
-  {
-    label: 'magento',
-  },
-  {
-    label: 'react',
-  },
-  {
-    label: 'nextjs',
-  },
-  {
-    label: 'threejs',
-  },
-  {
-    label: '3d',
-  },
-  {
-    label: 'blender',
-  },
-  {
-    label: 'canvas',
-  },
+    {
+        label: 'docker',
+    },
+    {
+        label: 'magento',
+    },
+    {
+        label: 'react',
+    },
+    {
+        label: 'nextjs',
+    },
+    {
+        label: 'threejs',
+    },
+    {
+        label: '3d',
+    },
+    {
+        label: 'blender',
+    },
+    {
+        label: 'canvas',
+    },
 ]

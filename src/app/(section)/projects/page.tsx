@@ -6,8 +6,8 @@ import RepoList from '@/app/(section)/_components/RepoList'
 import {GitHubManager} from '@/app/_services/github-manager'
 
 export default async function Page() {
-  const gitHub = new GitHubManager()
-  const projects = await gitHub.getProjects()
+    const gitHub = new GitHubManager()
+    const projects = await gitHub.getProjects()
 
-  return <RepoList repos={projects} />
+    return <RepoList repos={projects} />
 }

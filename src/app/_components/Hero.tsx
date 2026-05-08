@@ -6,5 +6,5 @@ import {Img2Pxl} from '@d3p1/img2pxl/react'
 import {config} from '@/app/_etc/hero'
 
 export default function Hero() {
-  return <Img2Pxl {...config} />
+    return <Img2Pxl {...config} />
 }

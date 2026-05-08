@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2458fc1b-a5bb-4815-a637-04aa8f1f9530" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+    <option name="SCHEME" value="Project" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="390CiGeKfjh8QR2mbll7f0oagZQ" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Shell Script.Dev.executor": "Run",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/var/www/non-vanilla-js/next.js/me/www/src/app/(section)/resume/_components/List",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode",
+    "ts.external.directory.path": "/var/www/non-vanilla-js/next.js/me/www/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/(section)/resume/_components/List" />
+      <recent name="$PROJECT_DIR$/src/app/(section)/resume/_components" />
+      <recent name="$PROJECT_DIR$/src/app/(section)/labs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/(section)/resume/_components" />
+      <recent name="$PROJECT_DIR$/src/app/(section)" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-WS-251.26094.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2458fc1b-a5bb-4815-a637-04aa8f1f9530" name="Changes" comment="" />
+      <created>1769823727279</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769823727279</updated>
+      <workItem from="1769823728579" duration="39000" />
+      <workItem from="1769823781629" duration="162000" />
+      <workItem from="1770484815466" duration="2179000" />
+      <workItem from="1770505468788" duration="1777000" />
+      <workItem from="1770507476025" duration="444000" />
+      <workItem from="1771000270316" duration="35744000" />
+      <workItem from="1771283571669" duration="4151000" />
+      <workItem from="1771443408513" duration="2410000" />
+      <workItem from="1771527679502" duration="6662000" />
+      <workItem from="1771616180358" duration="5913000" />
+      <workItem from="1771679991169" duration="3002000" />
+      <workItem from="1771784797855" duration="27550000" />
+      <workItem from="1771965764453" duration="1303000" />
+      <workItem from="1772066944409" duration="1061000" />
+      <workItem from="1772136999203" duration="20734000" />
+      <workItem from="1772333105765" duration="6639000" />
+      <workItem from="1772397750072" duration="1209000" />
+      <workItem from="1772916305551" duration="1212000" />
+      <workItem from="1773275709254" duration="1917000" />
+      <workItem from="1778270941213" duration="345000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -5,34 +5,34 @@
 import type {ReactElement, ReactNode} from 'react'
 
 export interface ListItem {
-  title: string
-  description?: string
-  link?: string
-  hide?: boolean
+    title: string
+    description?: string
+    link?: string
+    hide?: boolean
 }
 
 export type ListItemComponentProps = {
-  li: ListItem
-  children?: ReactNode
+    li: ListItem
+    children?: ReactNode
 }
 
 export type ListComponentProps = {
-  title: string
-  link: string
-  items: ReactElement<ListItemComponentProps>[]
+    title: string
+    link: string
+    items: ReactElement<ListItemComponentProps>[]
 }
 
 export interface Experience extends ListItem {
-  start_date: Date
-  end_date?: Date
+    start_date: Date
+    end_date?: Date
 }
 
 export type Project = ListItem
 
 export interface Certification extends ListItem {
-  provider: CertificationProvider
+    provider: CertificationProvider
 }
 type CertificationProvider = {
-  name: string
-  link: string
+    name: string
+    link: string
 }

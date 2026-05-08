@@ -5,9 +5,9 @@
 import type {ReactNode} from 'react'
 
 export default function Layout({children}: {children: ReactNode}) {
-  return (
-    <div className="max-w-4xl flex flex-col justify-center items-center gap-6 p-8">
-      {children}
-    </div>
-  )
+    return (
+        <div className="max-w-4xl flex flex-col justify-center items-center gap-6 p-8">
+            {children}
+        </div>
+    )
 }

@@ -1,63 +1,63 @@
 {
-  "name": "@d3p1/me",
-  "version": "1.12.0",
-  "description": "A page about me",
-  "private": true,
-  "scripts": {
-    "format:code": "prettier --ignore-path .gitignore --check src",
-    "format:code:fix": "npm run format:code -- --write",
-    "dev": "$DEV_CMD",
-    "build:code": "next build",
-    "build:static": "cp -r public .next/standalone/ && cp -r .next/static .next/standalone/.next/",
-    "build": "$BUILD_CMD",
-    "start": "$START_CMD",
-    "lint": "eslint"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/d3p1/me.git"
-  },
-  "keywords": [
-    "nextjs",
-    "react",
-    "blog",
-    "personal-website",
-    "personal-blog"
-  ],
-  "author": "C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/d3p1/me/issues"
-  },
-  "homepage": "https://github.com/d3p1/me#readme",
-  "dependencies": {
-    "@d3p1/img2pxl": "^3.2.0",
-    "next": "16.1.1",
-    "octokit": "^5.0.5",
-    "react": "19.2.3",
-    "react-dom": "19.2.3"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^19.8.1",
-    "@d3p1/commitlint-config": "^1.0.1",
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.1.1",
-    "eslint-config-prettier": "^10.1.5",
-    "husky": "8.0.3",
-    "prettier": "3.0.3",
-    "tailwindcss": "^4",
-    "typescript": "^5"
-  },
-  "ignoreScripts": [
-    "sharp",
-    "unrs-resolver"
-  ],
-  "trustedDependencies": [
-    "sharp",
-    "unrs-resolver"
-  ]
+    "name": "@d3p1/me",
+    "version": "1.12.0",
+    "description": "A page about me",
+    "private": true,
+    "scripts": {
+        "format:code": "prettier --ignore-path .gitignore --check src",
+        "format:code:fix": "npm run format:code -- --write",
+        "dev": "$DEV_CMD",
+        "build:code": "next build",
+        "build:static": "cp -r public .next/standalone/ && cp -r .next/static .next/standalone/.next/",
+        "build": "$BUILD_CMD",
+        "start": "$START_CMD",
+        "lint": "eslint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/d3p1/me.git"
+    },
+    "keywords": [
+        "nextjs",
+        "react",
+        "blog",
+        "personal-website",
+        "personal-blog"
+    ],
+    "author": "C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/d3p1/me/issues"
+    },
+    "homepage": "https://github.com/d3p1/me#readme",
+    "dependencies": {
+        "@d3p1/img2pxl": "^3.2.0",
+        "next": "16.1.1",
+        "octokit": "^5.0.5",
+        "react": "19.2.3",
+        "react-dom": "19.2.3"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^19.8.1",
+        "@d3p1/commitlint-config": "^1.0.1",
+        "@tailwindcss/postcss": "^4",
+        "@types/node": "^20",
+        "@types/react": "^19",
+        "@types/react-dom": "^19",
+        "eslint": "^9",
+        "eslint-config-next": "16.1.1",
+        "eslint-config-prettier": "^10.1.5",
+        "husky": "8.0.3",
+        "prettier": "3.0.3",
+        "tailwindcss": "^4",
+        "typescript": "^5"
+    },
+    "ignoreScripts": [
+        "sharp",
+        "unrs-resolver"
+    ],
+    "trustedDependencies": [
+        "sharp",
+        "unrs-resolver"
+    ]
 }

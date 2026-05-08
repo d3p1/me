@@ -2,49 +2,55 @@
  * @description Global styles
  * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  */
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
-  --color-primary: #000000;
-  --color-secondary-100: #ffffff;
-  --color-secondary-500: #717171;
+    --color-primary: #000000;
+    --color-secondary-100: #ffffff;
+    --color-secondary-500: #717171;
 }
 
 @utility token {
-  &::before {
-    content: '[';
-  }
-  &::after {
-    content: ']';
-  }
+    &::before {
+        content: '[';
+    }
+    &::after {
+        content: ']';
+    }
 }
 
 @layer base {
-  html {
-    font-size: 0.875rem;
-  }
+    html {
+        font-size: 0.875rem;
+    }
 
-  body {
-    @apply bg-primary text-secondary-100 leading-12;
-  }
+    body {
+        @apply bg-primary text-secondary-100 leading-12;
+    }
 
-  h1, h2, h3 {
-    @apply token uppercase;
-  }
+    h1,
+    h2,
+    h3 {
+        @apply token uppercase;
+    }
 
-  h1, h2, h3, h4 {
-    @apply font-black;
-  }
+    h1,
+    h2,
+    h3,
+    h4 {
+        @apply font-black;
+    }
 
-  h1 {
-    @apply text-xl tracking-widest my-8 lg:text-2xl;
-  }
+    h1 {
+        @apply text-xl tracking-widest my-8 lg:text-2xl;
+    }
 
-  h2 {
-    @apply text-lg my-6 lg:text-xl;
-  }
+    h2 {
+        @apply text-lg my-6 lg:text-xl;
+    }
 
-  h3, h4 {
-    @apply text-base my-4 lg:text-lg;
-  }
+    h3,
+    h4 {
+        @apply text-base my-4 lg:text-lg;
+    }
 }

@@ -7,13 +7,13 @@ import Item from '@/app/(section)/resume/_components/List/Item'
 import {projects} from '@/app/(section)/resume/_etc/projects'
 
 export default function ProjectList() {
-  return (
-    <List
-      title="Projects"
-      link="https://github.com/d3p1/"
-      items={projects.map((project, index) => (
-        <Item li={project} key={index} />
-      ))}
-    />
-  )
+    return (
+        <List
+            title="Projects"
+            link="https://github.com/d3p1/"
+            items={projects.map((project, index) => (
+                <Item li={project} key={index} />
+            ))}
+        />
+    )
 }
